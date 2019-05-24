@@ -1,0 +1,9 @@
+[package]
+name = "cooldown"
+version = "0.1.0"
+authors = ["Elie Michel <elie.michel@ens.fr>"]
+edition = "2018"
+
+[dependencies]
+midir = "0.5.0"
+rosc = "~0.1"
