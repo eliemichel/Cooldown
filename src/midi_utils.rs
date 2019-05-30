@@ -31,7 +31,7 @@ pub fn get_midi_in() -> Result<(MidiInput, usize),Box<Error>> {
 }
 
 pub fn get_midi_out() -> Result<(MidiOutput, usize),Box<Error>> {
-    let midi_out = MidiOutput::new("My Test Output")?;    
+    let midi_out = MidiOutput::new("Cooldown MIDI Output")?;    
 
     // Get an output port (read from console if multiple are available)
     let out_port = match midi_out.port_count() {
